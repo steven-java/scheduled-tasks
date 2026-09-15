@@ -5,8 +5,8 @@ import datetime as dt
 import os
 
 
-GMAIL = os.environ.get("GMAIL")
-GMAIL_PW = os.environ.get("GMAIL_PW")
+GMAIL = os.environ.get("MY_EMAIL")
+GMAIL_PW = os.environ.get("MY_PASSWORD")
 
 now = dt.datetime.now()
 today = (now.month, now.day)
