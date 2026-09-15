@@ -4,8 +4,9 @@ import random
 import datetime as dt
 import os
 
-GMAIL = "steven.pptx@gmail.com"
-GMAIL_PW = "ifyavkktuhurmzdk"
+
+GMAIL = os.environ.get("GMAIL")
+GMAIL_PW = os.environ.get("GMAIL_PW")
 
 now = dt.datetime.now()
 today = (now.month, now.day)
