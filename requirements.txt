@@ -1,4 +1,5 @@
-pandas smtplib
+pandas
+smtplib
 random
 datetime
 os
